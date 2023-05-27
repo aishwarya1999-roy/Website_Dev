@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+
+}
+body a{
+	text-decoration: none;
+}
+
+
+
+.navbar-brand span{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top : 20px;
+  margin-left: 10px;
+  opacity: 1;
+}
+.navbar{
+padding-bottom: 20px;
+}
+.nav-item{
+	padding-right: 40px;
+}
+
+/*navbar ends*/
+
+/* Body Start */
+.carousel{
+	margin-top: 80px;
+}
+.blog-container{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.brand1-container h2{
+	text-align: left;
+	padding-top: 70px;
+	padding-bottom: 5px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	border-bottom: 3px solid #000000!important;
+}
+.element-container{
+padding-bottom: 30px;
+}
+.image-text-container{
+	vertical-align: middle;
+}
+.image2-text-container{
+	vertical-align: middle;
+}
+.image-container img{
+	height: 250px;
+	float : right;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+.image2-container img{
+	height: 300px;
+	float : left;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+.text-container{
+	padding-bottom: 50px;
+
+}
+
+.brand2-container h2{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-weight: bold;
+}
+
+.image3-container img{
+	height: 300px;
+	width: 350px;
+	float : left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.element-story-container span{
+	font-size: 20px;
+}
+
+.image4-container img{
+	height: 300px;
+	width: 350px;
+	float : right;
+	padding-bottom: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+
+/* ******** Our Work ********* */
+#carousel-slider{
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.brand3-container h2{
+	text-align: right;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #000000!important;
+	font-weight: bold;
+}
+.image-slider img{
+	margin : 10px;
+
+}
+
+
+
+/* ******** Address & Donate ********* */
+
+.brand4-container{
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 5px;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #000000!important;
+	font-weight: bolder;
+}
+.map-address iframe{
+	margin-bottom: 20px;
+}
+
+
+
+/* ----- Footer ------ */
+
+
+.pt-5{
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+}
+
+#links, #address{
+	line-height: 2;
+}
+
+#quotes{
+	font-style: italic;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+
+}
+#about a{
+	color: white;
+}
+
+footer span{
+	font-size: 25px;
+	font-weight: bold;
+}
+footer p{
+	font-size: 15px;
+	color : lightgrey;
+
+}
+#about a:hover{
+color: lightgoldenrodyellow;
+}
+.footer-link p:hover{
+	color: lightgoldenrodyellow;
+}
+
+
+
+.list-unstyled{
+	margin-top: 30px;
+}
+
+.list-unstyled #link1 {
+		position: absolute;
+		left: 40%;
+}
+
+.list-unstyled #bullet1 {
+		position: absolute;
+		left: 45%;
+}
+
+
+.list-unstyled #link2 {
+		position: absolute;
+		left: 50%;
+}
+.list-unstyled #bullet2 {
+		position: absolute;
+		left: 55%;
+}
+.list-unstyled #link3 {
+		position: absolute;
+		left: 60%;
+}
+
+
+#footer-brand p{
+	text-align: center;
+	margin-bottom: 0px!important;
+}
+
+#footer-brand{
+	
+	margin-bottom: 0px!important;
+	padding-bottom:  0px!important;
+}
+
+.border-bottom{
+	border-bottom: 3px solid #000000!important;
+}

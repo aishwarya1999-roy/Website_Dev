@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+}
+body a{
+	text-decoration: none;
+}
+
+
+/* ------------- NAVNAR ------------- */
+.navbar-brand span{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top : 20px;
+  margin-left: 10px;
+  opacity: 1;
+}
+.navbar{
+padding-bottom: 20px;
+}
+.nav-item{
+  padding-right: 40px;
+}
+
+/* ------------- NAVNAR ENDS ------------- */
+
+/* ------------- BODY START ------------- */
+
+.about-container{
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.brand-container p{
+  border-bottom: 3px solid black;
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.data svg{
+  vertical-align: top;
+}
+#italic{
+  font-style: italic;
+  color: grey;
+  margin-bottom: 40px;
+}
+.form-brand{
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: darkslateblue;
+}
+label{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: darkslateblue;
+
+}
+form .data input{
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid lightgrey;
+  outline: none;
+  margin: 8px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.4s;
+}
+form .data input:hover{
+   border: 3px solid darkgray;
+}
+form .data input:focus{
+  border: 3px solid darkgray;
+}
+
+form .tel [name="phone"]{
+  width: 320px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid lightgrey;
+  outline: none;
+  margin: 8px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.4s;
+}
+form .tel [name="country-code"]{
+  height: 40px;
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid lightgrey;
+  outline: none;
+  margin: 8px 0;
+  -webkit-transition: 0.5s;
+  transition: 0.4s;
+}
+.tel svg{
+  vertical-align: top;
+}
+form .tel input:hover{
+   border: 3px solid darkgray;
+}
+form .tel input:focus{
+  border: 3px solid darkgray;
+}
+form .data textarea{
+  font-size: 20px;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 2px solid lightgrey;
+  outline: none;
+  margin: 8px 0;
+}
+
+form textarea:hover{
+   border: 3px solid darkgray;
+}
+form textarea:focus{
+  border: 3px solid darkgray;
+}
+
+
+#attach-photo [id="myfile"]{
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid lightgrey;
+  outline: none;
+  cursor: pointer;
+}
+
+/* *** form submit button style **** */
+form .submit-button{
+  width: 30%;
+  height: 40px;
+  color: #fff;
+  background: darkslateblue;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.4s;
+
+}
+form .submit-button:hover{
+  box-shadow:0px 0px 20px lightgrey;
+  left:0;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------- BODY ENDS ------------- */
+
+/* ------------- FOOTER ------------- */
+.pt-5{
+
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+}
+
+#links, #address{
+  line-height: 2;
+}
+
+#quotes{
+  font-style: italic;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+
+}
+#about a{
+  color: white;
+}
+
+footer span{
+  font-size: 25px;
+  font-weight: bold;
+}
+footer p{
+  font-size: 15px;
+  color : lightgrey;
+
+}
+#about a:hover{
+color: lightgoldenrodyellow;
+}
+.footer-link p:hover{
+  color: lightgoldenrodyellow;
+}
+
+
+
+.list-unstyled{
+  margin-top: 30px;
+}
+
+.list-unstyled #link1 {
+    position: absolute;
+    left: 40%;
+}
+
+.list-unstyled #bullet1 {
+    position: absolute;
+    left: 45%;
+}
+
+
+.list-unstyled #link2 {
+    position: absolute;
+    left: 50%;
+}
+.list-unstyled #bullet2 {
+    position: absolute;
+    left: 55%;
+}
+.list-unstyled #link3 {
+    position: absolute;
+    left: 60%;
+}
+
+
+#footer-brand p{
+  text-align: center;
+  margin-bottom: 0px!important;
+}
+
+#footer-brand{
+  
+  margin-bottom: 0px!important;
+  padding-bottom:  0px!important;
+}
+
+.border-bottom{
+  border-bottom: 3px solid #000000!important;
+}
+/* ------------- FOOTER ENDS ------------- */

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: Arial;
+}
+body a{
+	text-decoration: none;
+}
+
+
+/* ------------- NAVNAR ------------- */
+.navbar-brand span{
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top : 20px;
+  margin-left: 10px;
+  opacity: 1;
+}
+.navbar{
+padding-bottom: 20px;
+}
+.nav-item{
+  padding-right: 40px;
+}
+
+/* ------------- NAVNAR ENDS ------------- */
+
+/* ------------- BODY START ------------- */
+
+.about-container{
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+.brand-container p{
+  border-bottom: 3px solid black;
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+/* ------------- BODY ENDS ------------- */
+
+/* ------------- FOOTER ------------- */
+.pt-5{
+
+  padding-top: 35px;
+  padding-bottom: 30px;
+  border-top: 0;
+}
+
+#links, #address{
+  line-height: 2;
+}
+
+#quotes{
+  font-style: italic;
+}
+
+.footer-link a{
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+
+}
+#about a{
+  color: white;
+}
+
+footer span{
+  font-size: 25px;
+  font-weight: bold;
+}
+footer p{
+  font-size: 15px;
+  color : lightgrey;
+
+}
+#about a:hover{
+color: lightgoldenrodyellow;
+}
+.footer-link p:hover{
+  color: lightgoldenrodyellow;
+}
+
+
+
+.list-unstyled{
+  margin-top: 30px;
+}
+
+.list-unstyled #link1 {
+    position: absolute;
+    left: 40%;
+}
+
+.list-unstyled #bullet1 {
+    position: absolute;
+    left: 45%;
+}
+
+
+.list-unstyled #link2 {
+    position: absolute;
+    left: 50%;
+}
+.list-unstyled #bullet2 {
+    position: absolute;
+    left: 55%;
+}
+.list-unstyled #link3 {
+    position: absolute;
+    left: 60%;
+}
+
+
+#footer-brand p{
+  text-align: center;
+  margin-bottom: 0px!important;
+}
+
+#footer-brand{
+  
+  margin-bottom: 0px!important;
+  padding-bottom:  0px!important;
+}
+
+.border-bottom{
+  border-bottom: 3px solid #000000!important;
+}
+/* ------------- FOOTER ENDS ------------- */
