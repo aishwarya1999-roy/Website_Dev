@@ -3,7 +3,7 @@ import subprocess
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# Set the path to the folder you want to monitor
+
 folder_path = "."
 
 
