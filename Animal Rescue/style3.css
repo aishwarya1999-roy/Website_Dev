@@ -35,14 +35,17 @@ padding-bottom: 20px;
   margin-top: 150px;
   margin-bottom: 50px;
 }
-.brand-container p{
+.brand-container span{
   border-bottom: 3px solid black;
   margin-bottom: 70px;
   font-size: 40px;
   font-weight: bold;
 }
 
+.about-container{
+  text-align: center;
 
+}
 
 
 
@@ -128,7 +131,7 @@ color: lightgoldenrodyellow;
 }
 
 #footer-brand{
-  
+
   margin-bottom: 0px!important;
   padding-bottom:  0px!important;
 }
