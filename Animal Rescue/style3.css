@@ -31,7 +31,6 @@ padding-bottom: 20px;
 /* ------------- BODY START ------------- */
 
 .about-container{
-  text-align: center;
   margin-top: 150px;
   margin-bottom: 50px;
 }
@@ -41,13 +40,6 @@ padding-bottom: 20px;
   font-size: 40px;
   font-weight: bold;
 }
-
-.about-container{
-  text-align: center;
-
-}
-
-
 
 
 /* ------------- BODY ENDS ------------- */
