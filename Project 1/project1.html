@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parallax Website</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+		}
+		header {
+			height: 100vh;
+			background-image: url('header-image.jpg');
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+		}
+		.intro {
+			height: 100vh;
+			background-image: url('intro-image.png');
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+		}
+		.parallax {
+			height: 100vh;
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			z-index: 1;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+		}
+		.parallax-1 {
+			background-image: url('parallax-1.png');
+		}
+		.parallax-2 {
+			background-image: url('parallax-2.png');
+		}
+		.parallax-3 {
+			background-image: url('parallax-3.jpg');
+		}
+		.footer {
+			height: 100vh;
+			background-image: url('footer-image.jpg');
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Welcome to my Parallax Website</h1>
+	</header>
+
+	<section class="intro">
+		<h2>This is an introduction section</h2>
+	</section>
+	<section class="parallax parallax-1">
+		<h2>This is a parallax section</h2>
+	</section>
+	<section class="parallax parallax-2">
+		<h2>This is another parallax section</h2>
+	</section>
+	<section class="parallax parallax-3">
+		<h2>And here's one more parallax section</h2>
+	</section>
+
+
+	<footer class="footer">
+		<h3>Thanks for visiting my website</h3>
+	</footer>
+
+
+
+    <script>
+		window.addEventListener('scroll', function() {
+    var scrolled = window.pageYOffset;
+    var parallax1 = document.querySelector('.parallax-1');
+    var parallax2 = document.querySelector('.parallax-2');
+    var parallax3 = document.querySelector('.parallax-3');
+    parallax1.style.backgroundPositionY = (scrolled * 0) + 'px';
+    parallax2.style.backgroundPositionY = (scrolled * 0) + 'px';
+    parallax3.style.backgroundPositionY = (scrolled * 0) + 'px';
+});
+	</script>
+
+
+</body>
+</html>
