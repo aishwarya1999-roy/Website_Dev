@@ -20,7 +20,9 @@
       color: #fff;
       padding: 10px;
       position: fixed;
-      width: 100%;
+      top: 0;
+      right: 0;
+      width: 200px;
       z-index: 999;
     }
 
@@ -42,47 +44,68 @@
       padding: 14px 16px;
       text-decoration: none;
     }
+
     .dropdown {
-       display: none;
-       position: absolute;
-       top: 40px;
-       right: 0;
-       background-color: #333;
-       width: 200px;
-     }
+      display: none;
+      position: absolute;
+      top: 40px;
+      right: 0;
+      background-color: #333;
+      width: 200px;
+    }
 
-     .dropdown a {
-       color: #fff;
-       padding: 12px 16px;
-       text-decoration: none;
-       display: block;
-       text-align: right;
-     }
+    .dropdown a {
+      color: #fff;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: right;
+    }
 
-     .dropdown a:hover {
-       background-color: #555;
-     }
+    .dropdown a:hover {
+      background-color: #555;
+    }
 
-     @media screen and (max-width: 600px) {
-       .navbar {
-         width: 100%;
-       }
+    .dropdown-btn {
+      display: none;
+      float: right;
+      cursor: pointer;
+      padding: 14px 16px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      line-height: 20px;
+    }
 
-       .navbar ul {
-         display: none;
-       }
+    @media screen and (max-width: 600px) {
+      .navbar {
+        width: 100%;
+      }
 
-       .navbar li,
-       .dropdown {
-         display: block;
-         text-align: right;
-       }
+      .navbar ul {
+        display: none;
+      }
 
-       .navbar li a,
-       .dropdown a {
-         padding: 12px 16px;
-       }
-     }
+      .navbar li,
+      .dropdown {
+        display: block;
+        text-align: right;
+      }
+
+      .navbar li a,
+      .dropdown a {
+        padding: 12px 16px;
+      }
+
+      .dropdown-btn {
+        display: block;
+      }
+
+      .dropdown {
+        top: 60px;
+      }
+    }
 
     .header {
       background-image: url('header-background.jpg');
@@ -134,17 +157,15 @@
     }
   </style>
 </head>
-
-
 <body>
   <div class="navbar">
     <ul>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#about">About</a></li>
       <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
       <li class="dropdown">
-        <a href="#" onclick="toggleDropdown()">Menu &#9776;</a>
+        <button class="dropdown-btn" onclick="toggleDropdown()">Menu &#9776;</button>
         <div id="dropdownMenu" class="dropdown-content">
           <a href="#home">Home</a>
           <a href="#about">About</a>
@@ -156,7 +177,7 @@
   </div>
 
   <div id="home" class="header">
-    <h1>Welcome to our Website</h1>
+    <h1>Welcome to our Parallax Website</h1>
     <p>Scroll down to explore</p>
   </div>
 
@@ -178,14 +199,14 @@
   </div>
 
   <div class="footer">
-    <p>&copy; 2023 Aishwarya Roy. All rights reserved.</p>
-    <script>
-  function toggleDropdown() {
-    var dropdown = document.getElementById("dropdownMenu");
-    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
-  }
-</script>
-
+    <p>&copy; 2023 Parallax Website. All rights reserved.</p>
   </div>
+
+  <script>
+    function toggleDropdown() {
+      var dropdown = document.getElementById("dropdownMenu");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    }
+  </script>
 </body>
 </html>
