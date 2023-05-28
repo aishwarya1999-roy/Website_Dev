@@ -83,6 +83,7 @@
          padding: 12px 16px;
        }
      }
+
     .header {
       background-image: url('header-background.jpg');
       background-size: cover;
@@ -140,6 +141,16 @@
       <li><a href="#services">Services</a></li>
       <li><a href="#about">About</a></li>
       <li><a href="#home">Home</a></li>
+      <li class="dropdown">
+        <a href="#" onclick="toggleDropdown()">Menu &#9776;</a>
+        <div id="dropdownMenu" class="dropdown-content">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </li>
+
     </ul>
   </div>
 
