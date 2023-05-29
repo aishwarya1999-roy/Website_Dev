@@ -176,7 +176,25 @@ header h1{
   font-weight: bold;
   font-family: "Montserrat"!important;
 }
+header {
+  background-image: url('header-background.jpg');
+  background-position: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Montserrat"!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  height: 200px;
+}
 
+section p{
+    font-family: "Montserrat"!important;
+}
 
 
 
