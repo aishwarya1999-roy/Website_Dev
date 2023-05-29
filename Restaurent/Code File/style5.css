@@ -197,7 +197,9 @@ header {
   height: 200px;
 }
 
-
+section p{
+    font-family: "Montserrat"!important;
+}
 
 
 /* ------- MEDIA QUEARIES ------- */
