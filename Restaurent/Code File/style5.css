@@ -168,7 +168,11 @@ box-shadow: 0 1px 5px 1px grey;
 }
 
 /*  ------ Body ----- */
-
+header h3{
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat"!important;
+}
 header h1{
   padding-top: 90px;
   text-align: center;
@@ -176,11 +180,7 @@ header h1{
   font-family: "Montserrat"!important;
 }
 
-header h3{
-  text-align: center;
-  font-weight: bold;
-  font-family: "Montserrat"!important;
-}
+
 header {
   background-image: url('header-background.jpg');
   background-position: center;
