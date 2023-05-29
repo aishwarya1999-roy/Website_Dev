@@ -169,8 +169,13 @@ box-shadow: 0 1px 5px 1px grey;
 
 /*  ------ Body ----- */
 
-header h1, h3{
+header h1{
   padding-top: 90px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat"!important;
+}
+header h3{
   text-align: center;
   font-weight: bold;
   font-family: "Montserrat"!important;
