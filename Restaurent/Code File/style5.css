@@ -179,7 +179,18 @@ header h1{
   padding-right: 10px;
 }
 
-
+.header {
+  background-image: url('header-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
 
 
 /* ------- MEDIA QUEARIES ------- */
