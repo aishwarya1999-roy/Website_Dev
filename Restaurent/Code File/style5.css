@@ -31,7 +31,7 @@ body{
 }
 .navbar-logo h2{
   padding-left: 10px;
-  color: black;
+  color: white;
 }
 
 /* navbar button */
@@ -80,7 +80,7 @@ body{
   font-weight: bold;
   padding: 10px!important;
   margin: 10px!important;
-	color: black;
+	color: white;
   display: block;
   width: inherit;
 	text-decoration: none;
