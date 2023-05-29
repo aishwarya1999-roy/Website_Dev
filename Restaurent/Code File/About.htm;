@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Roy Restaurent </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+
+	<!-- ******* NAV BAR ******* -->
+	<div class="c-container">
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #000; opacity: .8;color:white;">
+				<a href="index.html" class="navbar-brand navbar-logo"><h2> <strong> Roy </strong> Restaurant </h2>
+				</a>
+				<button
+					class="navbar-toggler custom-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#toggleMobileMenu"
+					aria-controls="toggleMobileMenu"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+				<span class="navbar-toggler-icon sr-only">
+
+				</span>
+				<span class="icon-bar top-bar"></span>
+	      <span class="icon-bar middle-bar"></span>
+	      <span class="icon-bar middle-bar"></span>
+
+
+				</button>
+				<div class="collapse navbar-collapse" id="toggleMobileMenu">
+					<ul id="nav-list"  class="navbar-nav ms-auto text-center">
+						<li class="nav-items">
+							<a class="nav-link" href="menu-categories.html">
+								<span>Menu</span>
+							</a>
+						</li>
+
+
+						<li class="nav-items">
+							<a class="nav-link" href="#">
+							<span>About</span>
+						</a>
+						</li>
+
+						<li class="nav-items">
+							<a class="nav-link" href="#">
+							<span>Contact</span>
+						</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+	</div>
+
+<!-- *** NAV BAR ENDS HERE -->
