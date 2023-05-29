@@ -174,15 +174,11 @@ header h1{
   text-align: center;
   font-weight: bold;
 }
-#carouselIndicators{
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 header {
   background-image: url('header-background.jpg');
-  background-size: cover;
   background-position: center;
+  padding-left: 10px;
+  padding-right: 10px;
   height: 100vh;
   display: flex;
   flex-direction: column;
