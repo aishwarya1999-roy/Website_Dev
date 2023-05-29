@@ -202,3 +202,39 @@ textarea {
     padding: 8px;
   }
 }
+
+
+/* ----- Footer ------ */
+
+.pt-5{
+	margin-top: 20px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+}
+.pt-5 div.row{
+	margin-bottom: 35px;
+}
+#hours, #address{
+	line-height: 2;
+}
+.pt-5 section{
+		text-align: center;
+	}
+  #hours>span, #address>span{
+  	font-size: 1.3em;
+  }
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#quotes{
+	font-style: italic;
+}
+
+/*  ------ TILES ----- */
+.row a{
+	text-decoration: none;
+}
