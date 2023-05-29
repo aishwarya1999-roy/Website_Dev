@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+body{
+  height: 100vh;
+  background: linear-gradient(to right, #f7a6d5 0%, #fffc9e 100%);
+}
+
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.container{
+  background: white;
+  width: 330px!important;
+  padding: 20px;
+  padding-left: 30px!important;
+  padding-right : 30px!important;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.4);
+
+}
+.container .text{
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.container .text:hover{
+  background: -webkit-linear-gradient( #f7a6d5, #fffc9e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* *** form inputs style **** */
+form .data input{
+  padding-left: 10px;
+  width: 100%;
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+}
+form .ph input{
+  padding-left: 10px;
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+}
+form input[name="country code"]{
+  margin-right: 10px;
+  padding-left: 10px;
+}
+form input[name="phone"]{
+  width: 73%;
+}
+form .data textarea{
+  border: 1px solid black;
+  }
+form .data label{
+
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+form .data label{
+  font-size: 18px;
+  font-weight: bold;
+  padding-right : 10px;
+}
+
+form .ph label,.gen label{
+  font-size: 18px;
+  font-weight: bold;
+  padding-right : 10px;
+}
+
+
+form .data input, textarea{
+  border: 1px solid dimgrey;
+
+  border-radius: 5px;
+}
+form .ph input{
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+}
+
+form .data input:focus{
+  box-shadow:0px 0px 10px lightpink;
+  border: 0.5px solid grey;
+  color: grey;
+}
+form .ph input:focus{
+  box-shadow:0px 0px 10px lightpink;
+  border: 0.5px solid grey;
+  color: grey;
+}
+
+form .ph input:hover{
+  box-shadow:0px 0px 10px lightpink;
+  border: 0.5px solid grey;
+  color: grey;
+}
+form .gen input:hover{
+box-shadow:0px 0px 10px lightpink;
+border: 0.5px solid grey;
+color: grey;
+}
+form .data input:hover{
+  box-shadow:0px 0px 10px lightpink;
+  border: 0.5px solid grey;
+  color: grey;
+}
+
+
+form input[type="submit"]{
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background: linear-gradient(to right, #f7a6d5 0%, #fffc9e 100%);
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0;
+  /*text-transform: uppercase;*/
+  letter-spacing: 1px;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  transition: all 0.4s;
+
+}
+form input[type="submit"]:hover{
+  box-shadow:0px 0px 20px lightpink;
+  left:0;
+  font-weight: bold;
+}
