@@ -173,6 +173,7 @@ header h1{
   padding-top: 90px;
   text-align: center;
   font-weight: bold;
+  font-family: "Montserrat"!important;
 }
 header {
   background-image: url('header-background.jpg');
