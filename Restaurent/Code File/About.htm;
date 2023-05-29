@@ -62,3 +62,56 @@
 	</div>
 
 <!-- *** NAV BAR ENDS HERE -->
+
+
+
+
+
+<!-- ************* FOOTER START *********** -->
+<footer class="bg-dark text-light pt-5 pb-4">
+	<div class="container-fluid">
+		<div class="row">
+			<section id="hours" class="col-sm-4">
+				<span>Hours : </span><br>
+				Mon - Fri : 11.00am - 9.00pm<br>
+				Sunday : 1.00pm - 12.00am<br>
+				Saturday Closed
+				<hr class="d-block d-sm-none">
+			</section>
+
+
+			<section id="address" class="col-sm-4">
+				<span>Address : </span><br>
+				221B Baker Street,<br>
+				London<br>
+				<hr class="d-block d-sm-none">
+			</section>
+
+
+			<section id="quotes" class="col-sm-4">
+				<p>
+					“ The idea is to serve not only tasty but also wholesome and nutritious meals.
+					I am a big fan of the railway mutton curry.
+					It is perfect comfort food.
+					I want to make sure the menu reflects the brilliance of local cuisine. ”
+				</p>
+
+			</section>
+
+
+				</div>
+			</div>
+			<br>
+		<div class="text-center">&copy; Copyright BlackQueen</div>
+
+
+	</div>
+</footer>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+</html>
