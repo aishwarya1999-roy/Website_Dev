@@ -3,7 +3,7 @@
 *{
 padding: 0px;
 margin: 0px;
-font-family: "Poppins", sans-serif;
+font-family: "Montserrat";
 letter-spacing: 1px;
 }
 
@@ -188,6 +188,8 @@ header {
   margin-bottom: 20px;
   height: 200px;
 }
+
+
 
 
 /* ------- MEDIA QUEARIES ------- */
