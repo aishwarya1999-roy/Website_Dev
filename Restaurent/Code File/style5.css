@@ -3,7 +3,7 @@
 *{
 padding: 0px;
 margin: 0px;
-font-family: "Montserrat";
+font-family: "Poppins", sans-serif;
 letter-spacing: 1px;
 }
 
@@ -179,6 +179,7 @@ header {
   background-position: center;
   padding-left: 10px;
   padding-right: 10px;
+  font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   justify-content: center;
