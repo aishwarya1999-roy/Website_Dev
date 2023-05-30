@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333333;
+  background-color: #fec84e;
+  background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+}
+
+
+
+/* ----  NAVIGATION BAR ----- */
+.navbar button:hover{
+  border: 2px solid #1f1711;
+  box-shadow: 0 1px 5px 1px orange;
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+.navbar button:focus{
+  transform: scale(1.2);
+  border: 2px solid #1f1711;
+  box-shadow: 0 1px 5px 1px orange;
+  border-radius: 20px;
+}
+.navbar-toggler-icon svg{
+  color: #1f1711;
+}
+.navbar-logo h2{
+  padding-left: 10px;
+  color: white;
+}
+
+/* navbar button */
+.custom-toggler.navbar-toggler {
+    transition: 0.4s ease;
+    border-color: #1f1711;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+/* navbar animation */
+#toggleMobileMenu{
+  transition-duration: 0.7s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.65);
+}
+.navbar-toggler {
+.icon-bar {
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+  &.collapsed {
+    .top-bar {
+      transform: rotate(0);
+    }
+    .middle-bar {
+      opacity: 1;
+    }
+    .bottom-bar {
+      transform: rotate(0);
+    }
+  }
+}
+
+/* ----  NAVIGATION BAR ITEMS ----- */
+#toggleMobileMenu  ul li a{
+  font-weight: bold;
+  padding: 10px!important;
+  margin: 10px!important;
+	color: white;
+  display: block;
+  width: inherit;
+	text-decoration: none;
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.5s ease;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.65);
+  position: relative;
+}
+
+#toggleMobileMenu a:hover {
+  outline: none;
+  border-radius:5px;
+  transition-duration: 0.4s;
+  background: whitesmoke;
+	color: #1f1711;
+  transform: scale(1.2);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+	}
+#toggleMobileMenu li{
+
+}
+#toggleMobileMenu span{
+
+}
+#phone a{
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+/* ---- NAV ENDS --- */
+/* ------ TEL XS BUTTON ------*/
+#call-btn{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 20px;
+  text-align: center;
+}
+#call-btn a{
+  color: #492307;
+  border-radius: 20px;
+}
+.btn:hover {
+color: grey;
+border-radius: 20px;
+box-shadow: 0 1px 5px 1px grey;
+}
+/* ------ TEL XS BUTTON ENDS ------*/
+
+/* ----- Footer ------ */
+
+.pt-5{
+	margin-top: 20px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	border-top: 0;
+}
+.pt-5 div.row{
+	margin-bottom: 35px;
+}
+#hours, #address{
+	line-height: 2;
+}
+.pt-5 section{
+		text-align: center;
+	}
+  #hours>span, #address>span{
+  	font-size: 1.3em;
+  }
+#address p{
+	color: #557c3e;
+	font-size: .8em;
+	line-height: 1.8;
+}
+
+#quotes{
+	font-style: italic;
+}
+
+/*  ------ TILES ----- */
+.row a{
+	text-decoration: none;
+}
+h3{
+  font-weight: bold;
+  font-family: "Montserrat"!important;
+}
+header h1{
+  padding-top: 90px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Montserrat"!important;
+}
+header {
+  background-image: url('header-background.jpg');
+  background-position: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Montserrat"!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+  height: 200px;
+}
+
+section p{
+    font-family: "Montserrat"!important;
+}
+
+
+
+
+
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #800000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #B30000;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  input, textarea {
+    padding: 8px;
+  }
+}
