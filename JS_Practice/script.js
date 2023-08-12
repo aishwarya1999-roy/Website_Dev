@@ -1,1 +1,1 @@
-document.write("asjiejiede0od");
+document.write("From JS file");
