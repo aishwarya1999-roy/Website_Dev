@@ -1,0 +1,80 @@
+clear //to clear the screen
+git config 
+
+git config --global user.name "name" //initaize user name in global
+
+git config --global user.email <email id> //initaize user mail id in global
+
+git config --global init.default branch main //intializing default branch as main 
+
+git init //initializing a local file to git
+
+git rm --cached <file name> //remove from tracking
+
+git add <file name> //tracking a file using git
+
+.gitignore // git will ignore this file
+
+*.txt // we have to type it in gitignore file and git will ignore all .txt file
+
+git add . / git add -A / git add --all //add everything from a folder to staging, staging is a place where files are waiting until they are ready to commit
+
+git commit -m "comment" //we coomit to save the current time and data so that later we can check later , mainly adding every point in a notebook or log, so that we can check later by the comment names
+
+git diff //it is to check what is the difference after modyfying anything in file
+
+git restore --staged <file name> //it will restore back to previous change if the change is in staging or now again need to add
+
+git commit -a -m "comment" //add and commit together, if you don't want to keep somethingon staging, then directly do this bypass staging
+
+git rm <filename> //remove file from folder
+
+git restore <filename> //restore the file
+
+git mv "file name" "new file name" //changeing file name or file type
+
+git log //to see all the commits
+
+git log --oneline //more simple version
+
+git commit -m "Changed file name" --amend //to change the comment of previous commit
+
+git log -p //what changes i made in git commit
+
+press Q to exit from log
+shift + Z + Z to save and comeout from a text doc
+
+git help log //to see the doc about log
+git help config //to see the doc about config 
+
+git reset <hastag of the commit> //go back to that commit 
+
+git rebase -i --root //to modify the log
+to exit the rebase, type :X 
+
+git branch <name> //to create another branch 
+
+git branch //to see all the branches
+
+git switch <branch name> //to switch to branch 
+
+git marge <branch name> //to marge the mentioned branch to master branch 
+
+git merge -m "comment" <Branch Name>  //to marge the mentioned branch to master branch with commit
+
+git branch -d <branch name> //delete branch 
+
+git switch -c <name> //directly switch to the branch after after creation by -c
+
+================================
+
+If changes in both master branch or side branch, then we have to switch to "master|MERGING", then edit the file, and save which one to keep.. <<<<HEAD will be the current and ====
+		>>>> will be from branch
+
+===============================
+
+git remote add origin https://github.com/aishwarya1999-roy/Git_Exersize.git //creating a remote connection to my github repo and the connection name is origin 
+
+git branch -M main //set the target branch to Main
+
+git push -u origin main //push all the local repos to cloud repo
