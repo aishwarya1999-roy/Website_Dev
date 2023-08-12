@@ -1,1 +1,1 @@
-document.write("From JS file");
+document.write("From JS file<br>");
