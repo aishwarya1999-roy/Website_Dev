@@ -1,4 +1,0 @@
-intro name big
-about section
-our work - bold title
-work wwith us = parallex effect with animated description
